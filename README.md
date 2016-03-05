@@ -1,11 +1,11 @@
 # Diffie-Hellman
 Example Diffie-Hellman key exchange class in Python
 
-Diffie and Hellman recently won the Turing award for their work on public key exchanges. This is a simple example of their algorithm. It relies on the difficulty of factoring the discrete logarithm. That is, solving for x in this equation:
+Diffie and Hellman recently won the Turing award for their work on public key exchanges. This is a simple example of their algorithm. It relies on the difficulty of factoring the discrete logarithm. That is, it is very difficult to solve for x in this equation:
 
 a<sup>x</sup> *mod* p
 
-is very hard; particularly when p, a and x are large.
+particularly when p, a and x are large.
 
 
 To use the example, just fork or clone the repo and run it:
