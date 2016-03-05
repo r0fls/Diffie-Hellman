@@ -16,3 +16,16 @@ To use the example, just fork or clone the repo and run it:
     
 It takes about a minute to run on my machine. In practice the prime should be about 3-4 times bigger, and the base exponent about 5 times bigger. The prime in this example has [301 digits](http://primes.utm.edu/curios/page.php?number_id=9455).
     
+###More info
+
+When two communicators share their public key: g<sup>b</sup> *mod* p
+
+They arrive at the same private key because:
+
+(g<sup>a</sup>)<sup>b</sup> *mod* p 
+
+=(g<sup>b</sup>)<sup>a</sup> *mod* p 
+
+=g<sup>ab</sup> *mod* p
+
+At that point they can use an encryption algorithm like RSA.
